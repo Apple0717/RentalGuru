@@ -9,11 +9,9 @@ import axios from "axios";
 
 function App() {
   useEffect(() => {
-    // Fetch alerts from the mock API
     const fetchAlerts = async () => {
       try {
-        // Changed to GET request
-        const response = await axios.get('http://localhost:5000/alerts');
+        const response = await axios.get('http://rentalguru/alerts');
         const alerts = response.data;
 
         if (Array.isArray(alerts)) {

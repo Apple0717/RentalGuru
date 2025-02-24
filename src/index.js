@@ -8,12 +8,11 @@ async function enableMocking() {
   }
 
   const { worker } = await import('../src/server/browser');
-  
-  // Start the worker with specific options
+
   return worker.start({
-    onUnhandledRequest: 'bypass', // Prevents console warnings for unhandled requests
+    onUnhandledRequest: 'bypass', 
     serviceWorker: {
-      url: '/mockServiceWorker.js' // Specify the correct path
+      url: '/mockServiceWorker.js' 
     }
   });
 }

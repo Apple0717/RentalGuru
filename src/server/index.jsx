@@ -1,7 +1,7 @@
 import { http, HttpResponse } from 'msw'
 
 export const handlers = [
-  http.get('http://localhost:5000/alerts', () => {
+  http.get('http://rentalguru/alerts', () => {
     return HttpResponse.json([
       {
         "id": 1,
