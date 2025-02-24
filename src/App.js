@@ -11,7 +11,7 @@ function App() {
   useEffect(() => {
     const fetchAlerts = async () => {
       try {
-        const response = await axios.get('https://rentalfrontend-pi.vercel.app/alerts');
+        const response = await axios.get('https://rentalfrontend/alerts');
         const alerts = response.data;
 
         if (Array.isArray(alerts)) {
