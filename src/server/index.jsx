@@ -1,7 +1,7 @@
 import { http, HttpResponse } from 'msw'
 
 export const handlers = [
-  http.get('http://rentalguru/alerts', () => {
+  http.get('https://rentalfrontend-pi.vercel.app/alerts', () => {
     return HttpResponse.json([
       {
         "id": 1,
