@@ -1,0 +1,9 @@
+<svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.70703 8.625L11.279 4.53784C12.519 3.42928 13.1391 2.875 13.8945 2.875C14.65 2.875 15.27 3.42928 16.5101 4.53784L21.082 8.625" stroke="#6CA700" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M8.14453 7.66699V19.167M19.6445 19.167V7.66699" stroke="#6CA700" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="3.35352" cy="11.5007" rx="1.4375" ry="1.91667" stroke="#6CA700" stroke-width="1.5"/>
+  <path d="M3.35352 13.417V19.167" stroke="#6CA700" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M1.91602 19.167H21.0827" stroke="#6CA700" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M11.5 19.167V15.3334C11.5 14.43 11.5 13.9784 11.7807 13.6977C12.0614 13.417 12.5131 13.417 13.4167 13.417H14.375C15.2785 13.417 15.7303 13.417 16.011 13.6977C16.2917 13.9784 16.2917 14.4301 16.2917 15.3337V19.167" stroke="#6CA700" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M12.9375 10.542H14.8542M12.9375 7.66699H14.8542" stroke="#6CA700" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
